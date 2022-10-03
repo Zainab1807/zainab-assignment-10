@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+ul{
+    position: fixed;
+    background: #fff;
+    display: flex;
+    padding: 20px ;
+    border-radius: 2px;
+    top: 0;
+    left: 5%;
+    margin: 0;
+    box-shadow: 0 2px 4px;
+}
+ul li{
+    list-style: none;
+    display: block;
+    border-right: 1px solid black;
+    text-align: center;
+}
+ul li:last-child{
+    border-right: none;
+}
+ul li a{
+    padding: -1px;
+    display: block;
+    text-decoration: none;
+}
+          /* ______Navbar */
+
+ul li a .icon{
+         width: 110px;
+         height: 30px;
+         overflow: hidden;
+         margin: 0 auto 10px;
+}          
+         /* _____ICON_____ */
+
+.fa-solid{
+    width: 100%;
+    height: 100%;
+    color: black;
+    line-height: 10px;
+    font-size: 25px;
+    margin: 0;
+    position: absolute;
+    margin-left: -50%;
+
+}  
+ul li a .name{
+        height: 20px;
+        width: 100px;
+        position: absolute;
+        display: block;
+        overflow: hidden;
+        color: black;
+        margin-left: 6px;
+}
+ul li .name .span{
+    position: absolute;
+    display: block;
+    line-height: 10px;
+    font-size: 20px;
+} 
+
+         /* _____ PARAGRAPH _____ */
+.one{
+    font-family: 'Times New Roman', Times, serif;
+}
+.two{
+    font-family: 'Abyssinica SIL', serif;
+}
+.three{
+    font-family: 'Alkalami', serif;
+}
+.four{
+    font-family: 'Gemunu Libre', sans-serif;
+}
+.five{
+    font-family: 'Inter Tight', sans-serif;
+}
+.six{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.seven{
+    font-family: 'Noto Sans Mono', monospace;
+}
+.eight{
+    font-family: 'Passions Conflict', cursive;
+}
+.nine{
+    font-family: 'Roboto', sans-serif;
+}
+.ten{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.para{
+    width: 90%;
+    height: 1280px;
+    background-color: #fff;
+    margin-top: 8%;
+    margin-left: 5%;
+    border: 1px solid black;
+    text-align: center;
+    box-shadow: 0 2px 4px;
+}
+
+    /* _____ HEADING _____ */
+h1{
+    text-align: center;
+    font-family: 'Bungee Spice', cursive;
+    background-color: yellow;
+}
